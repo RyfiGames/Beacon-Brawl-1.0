@@ -1,0 +1,40 @@
+name: BeaconBrawl
+author: RyfiMagicman
+version: 1.0.0
+main: me.RyfiMagicman.BeaconBrawl.BBMain
+description: Beacon Brawl minigame
+
+commands:
+  startbb:
+    usage: /<command>
+    description: Starts a Beacon Brawl
+  bbjoin:
+    usage: /<command>
+    description: Joins a Beacon Brawl
+  bbleave:
+    usage: /<command>
+    description: Leaves a Beacon Brawl
+  bblist:
+    usage: /<command>
+    description: Lists Beacon Brawl players
+  bbmap:
+    usage: /<command>
+    description: Manages Beacon Brawl maps
+  bbstartgens:
+    usage: /<command> <mapName>
+    description: Starts Beacon Brawl generators
+  bbstopgens:
+    usage: /<command>
+    description: Stops Beacon Brawl generators
+  bbbegingame:
+    usage: /<command>
+    description: Starts the full game
+  bbdebug:
+    usage: /<command>
+    description: Debugging
+  bbmaps:
+    usage: /<command>
+    description: Showing map choices
+  bbplayer:
+    usage: /<command>
+    description: Player management
